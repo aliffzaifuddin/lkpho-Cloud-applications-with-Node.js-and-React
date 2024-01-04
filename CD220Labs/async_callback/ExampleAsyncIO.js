@@ -10,7 +10,7 @@ function readFile1(filename1) {
         if (err) {
             console.log(err);
         } else {
-            console.log("\n\nThe content of the file is \n\n"+data);
+            console.log("\n\nThe content of the file 1 is \n\n"+data);
             console.log("Completed reading file1");
         }
     });
@@ -21,7 +21,7 @@ function readFile2(filename2) {
         if (err) {
             console.log(err);
         } else {
-            console.log("\n\nThe content of the file is \n\n"+data);
+            console.log("\n\nThe content of the file 2 is \n\n"+data);
             console.log("Completed reading file2");
         }
     });
